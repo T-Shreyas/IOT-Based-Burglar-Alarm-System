@@ -115,34 +115,63 @@ the breach.
 ## Results and Observations:
 ➢ SMS obtained once anyone as close as less than 8cm towards the 
 specified secured target.
+| ![](Images/sms.png) | 
+|:--:| 
+| **Figure 7 :** *SMS Notification* |
 
+| ![](Images/sms2.png) | 
+|:--:| 
+| **Figure 7 :** *Message received* |
+
+➢ Telegram Notification Message and phone call (30 sec) both are 
+received once the Door is opened in attempt of Burglary.
+
+| ![](Images/telegram.png) | 
+|:--:| 
+| **Figure 8 :** *Telegram Bot* |
+
+| ![](Images/telegram2.png) | 
+|:--:| 
+| **Figure 9 :** *Security breach Telegram text and call notification* |
 
 ## Advantages:
 ➢ They can be used for multiple sensor functions like position sensing, 
 speed sensing as well as for sensing the direction of movement too.
+
 ➢ As they are solid state devices, there is absolutely no wear and tear 
 due to absence of moving parts.
+
 ➢ They are almost maintenance free.
+
 ➢ They are robust.
+
 ➢ They are immune to vibration, dust and water.
 
 ## Disadvantages:
 ➢ They are not capable to measure current flow at a distance more than 
 10 cm. The only solution to overcome this issue is to use a very 
 strong magnet that can generate a wide magnetic field.
+
 ➢ Accuracy of the measured value is always a concern as external 
 magnetic fields may affect the values.
+
 ➢ High Temperature affects the conductor resistance. This will in turn 
 affect the charge carrier’s mobility and sensitivity of Magnetic reed 
 Sensors.
 
 ## Applications:
 ➢ Siren Annunciation.
+
 ➢ Magnetic Door Release.
+
 ➢ Border security control and defense purposes.
+
 ➢ Security systems in banking sectors such as lockers or safes.
+
 ➢ Small Motor Control.
+
 ➢ Prisons/Jails and Zoological gardens.
+
 ➢ In SMART Homes as Door Tamper Alarm.
 
 ## Conclusion:
