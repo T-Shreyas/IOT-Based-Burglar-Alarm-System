@@ -1,5 +1,4 @@
 # IOT-Based-Burglar-Alarm-System
-IOT Based Burglar Alarm System ( NodeMCU, Magnetic Reed Switch )
 
 ## ❖ Objectives:
 
@@ -69,3 +68,90 @@ messages on your device and send messages to other phone
 numbers. Standard carrier rates may apply. This service 
 requires the IFTTT app for Android.
 
+| ![](Images/app.png) | 
+|:--:| 
+| **Figure 3 :** *IFTTT Applets* |
+
+## Circuit Schematic:
+| ![](Images/circuit.png) | 
+|:--:| 
+| **Figure 4 :** *Circuit Schematic* |
+
+The echo and trigger pins of the ultrasonic sensor is connected to 
+Digital pins D5 and D6 of NodeMCU respectively. The magnetic reed switch 
+is connected to Digital pin D2 of NodeMCU. The powers supply and ground 
+terminals are respectively connected to 3V and GND pins of NodeMCU 
+Microcontroller.
+
+## Hardware Implemented Circuit:
+
+| ![](Images/hardware.png) | 
+|:--:| 
+| **Figure 5 :** *Hardware Implimented Circuit* |
+
+## Working:
+Case-1: The Circuit setup is implemented as shown in figure 8 with some 
+threshold set to the ultrasonic sensor and is turned on. If the ultrasonic 
+threshold is surpassed then automatically an SMS is deployed through 
+IFTTT Android SMS applet from NodeMCU microcontroller to the concerned 
+Phone number already registered while building the Applet.
+
+Case-2: The Circuit is placed along the door/vault-door such that the 
+magnet is attached along the door and the circuit attached on the rim of the 
+wall as shown in figure 6.
+
+| ![](Images/door.png) | 
+|:--:| 
+| **Figure 6 :** *Circuit Position wrt Door* |
+
+Close the door and turn on the circuit. If the door is opened forcibly 
+attempting burglary. The reed switch loses its contact with the magnet and 
+immediately (within 15 secs) a telegram call is made to the concerned user 
+reporting the issue through the help of CallMeBot Phone Call integrations
+IFTTT applet from NodeMCU microcontroller.
+We even receive telegram messages along with the call indicating the time of 
+the breach.
+
+## Results and Observations:
+➢ SMS obtained once anyone as close as less than 8cm towards the 
+specified secured target.
+
+
+## Advantages:
+➢ They can be used for multiple sensor functions like position sensing, 
+speed sensing as well as for sensing the direction of movement too.
+➢ As they are solid state devices, there is absolutely no wear and tear 
+due to absence of moving parts.
+➢ They are almost maintenance free.
+➢ They are robust.
+➢ They are immune to vibration, dust and water.
+
+## Disadvantages:
+➢ They are not capable to measure current flow at a distance more than 
+10 cm. The only solution to overcome this issue is to use a very 
+strong magnet that can generate a wide magnetic field.
+➢ Accuracy of the measured value is always a concern as external 
+magnetic fields may affect the values.
+➢ High Temperature affects the conductor resistance. This will in turn 
+affect the charge carrier’s mobility and sensitivity of Magnetic reed 
+Sensors.
+
+## Applications:
+➢ Siren Annunciation.
+➢ Magnetic Door Release.
+➢ Border security control and defense purposes.
+➢ Security systems in banking sectors such as lockers or safes.
+➢ Small Motor Control.
+➢ Prisons/Jails and Zoological gardens.
+➢ In SMART Homes as Door Tamper Alarm.
+
+## Conclusion:
+This project gives a conclusion that the type of alarm system used here is 
+based on Magnetic reed effect and ultrasonic principle. The main objective of 
+the simulation project is to maintain safety of a house while no one is 
+present. If there is any emergency which needs to be attended soon and the 
+house is left alone, our theft detection alarm comes into picture. If any 
+burglar tries to break into the house without keys, then the magnetic field 
+variation would put on the alarm and it would immediately send SMS or call 
+the concerned authority about the theft going so that necessary action can 
+be immediately taken against the culprits.
