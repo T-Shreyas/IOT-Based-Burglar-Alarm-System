@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "Ammaji";
-const char* password = "rajeshwari";
+const char* ssid = "*********";
+const char* password = "%%%%%%%%";
 int reed_switch = 4;//D2
 int reed_status;
 
@@ -65,7 +65,7 @@ void loop()
 
       if (distanceCm <= 8.00){
         Serial.println("SECURITY BREACH"); 
-        String url = "https://maker.ifttt.com/trigger/sms/with/key/noBni71ah2UbE0bD26K6qHmtGOSL-GE_puFn_5VpSIb"; 
+        String url = "https://maker.ifttt.com/trigger/sms/with/key/noBni71K6qHmtGOSL-GE_pn_5VpSIb"; 
         Serial.print("Requesting URL: ");
         Serial.println(url);                 
         client.print(String("GET ") + url + " HTTP/1.1\r\n" + "Host: " + host + "\r\n" + "Connection: close\r\n\r\n"); 
@@ -79,7 +79,7 @@ void loop()
    if (reed_status == 1)
         { 
             Serial.println("NOT SAFE, SECURITY BREACH"); 
-            String url = "https://maker.ifttt.com/trigger/shreyas/with/key/noBni71ah2UbE0bD26K6qHmtGOSL-GE_puFn_5VpSIb"; 
+            String url = "https://maker.ifttt.com/trigger/shreyas/with/key/no71ah2Uetryh436qHmtGOSL-GE_puDn_5VpSIb"; 
             Serial.print("Requesting URL: ");
             Serial.println(url);                 
             client.print(String("GET ") + url + " HTTP/1.1\r\n" + "Host: " + host + "\r\n" + "Connection: close\r\n\r\n");            
