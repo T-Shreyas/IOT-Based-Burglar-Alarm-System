@@ -18,9 +18,12 @@ immediate effective action.
 
 ### ❖ Hardware Used:
 i. NodeMCU ESP8266
+
 ii. HC-SR04 ultrasonic sensor
+
 iii. Magnetic Reed Switch
-iv. Connecting wires and Resistors:
+
+iv. Connecting wires and Resistors
 
 ### ❖ Working Principle of Magnetic Reed Switch:
 The simplest magnetic-field sensor is a reed switch. It contains two 
@@ -58,10 +61,12 @@ which can be found in the Documentation section of the
 Webhooks service page. A Webhook can act as both a trigger 
 and an action, so the web requests are extremely flexible and 
 customizable.
+
 b) CallMeBot Phone Call integrations: Make Free Telegram 
 Phone Calls when a Trigger is fired. A Robot telegram bot will 
 Call you. This service requires a Telegram App installed in your 
 phone to receive calls.
+
 c) Android SMS integrations: Android SMS is a native service 
 that allows you to receive Short Message Service (SMS) 
 messages on your device and send messages to other phone 
